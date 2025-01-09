@@ -11,6 +11,7 @@ const Form = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+       <label/>Enter a number (1-1000):<label/>
       <input
         type="number"
         value={number}
